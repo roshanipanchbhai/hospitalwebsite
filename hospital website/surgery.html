@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surgery</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color:  blueviolet;
+        }
+        h1{
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+        p{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 20px 30px 30px 30px;
+        }
+        form {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+    </style>
+</head>
+<body>
+    <h1>Surgery</h1>
+    <p>
+        The Department of Surgery is a specialized branch within a healthcare institution, typically found in hospitals or medical centers. It is dedicated to the diagnosis, treatment, and management of various surgical conditions and diseases. Surgeons are medical professionals who specialize in performing surgical procedures to address injuries, diseases, and deformities.<br><br>
+
+Here are some key details about the Department of Surgery:<br><br>
+
+Surgical Specialties: The Department of Surgery consists of various surgical specialties, each focusing on a specific area of the body or type of surgery. Common surgical specialties include general surgery, orthopedic surgery, neurosurgery, cardiovascular surgery, plastic surgery, urology, ophthalmology, otolaryngology (ear, nose, and throat), and gynecology, among others.<br><br>
+
+Surgeons: The department is staffed by surgeons who have completed extensive medical education, including medical school and a residency program specific to their chosen surgical specialty. Surgeons may also pursue additional fellowship training to further specialize in a particular area.<br><br>
+
+Surgical Procedures: The Department of Surgery performs a wide range of surgical procedures, both elective and emergency. These procedures can include but are not limited to appendectomy, hernia repair, joint replacements, organ transplants, tumor removal, cardiac bypass surgery, cataract surgery, and cesarean sections.<br><br>
+
+Preoperative Evaluation: Before surgery, patients typically undergo a preoperative evaluation to assess their overall health, identify any potential risks, and determine their fitness for the surgical procedure. This evaluation may involve physical examinations, laboratory tests, imaging studies, and consultations with other specialists if necessary.<br><br>
+
+Operating Rooms: The Department of Surgery is equipped with dedicated operating rooms where surgical procedures take place. These rooms are sterile environments designed to maintain asepsis (freedom from infection) during surgery. They are equipped with specialized surgical instruments, monitoring devices, anesthesia equipment, and other necessary tools.<br><br>
+
+Postoperative Care: Following surgery, patients are transferred to postoperative care units or surgical wards, where they receive close monitoring and appropriate postoperative care. This may involve pain management, wound care, physical therapy, medication administration, and rehabilitation, depending on the specific procedure and patient needs.<br><br>
+
+Collaboration with Other Departments: The Department of Surgery often collaborates closely with other medical departments, such as radiology, pathology, anesthesiology, and internal medicine. This multidisciplinary approach ensures comprehensive patient care, accurate diagnosis, proper preoperative evaluation, and effective postoperative management.<br><br>
+
+It's important to note that specific details and practices within the Department of Surgery can vary between healthcare institutions and countries. This general overview provides a broad understanding of what the department entails, but for more specific information, it's best to consult the policies and procedures of the particular hospital or medical center you are interested in.<br><br>
+
+
+
+
+
+
+
+    </p>
+    <h1>Contact Us</h1>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

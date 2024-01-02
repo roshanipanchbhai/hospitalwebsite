@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiology</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color:  blueviolet;
+        }
+        h1{
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+        p{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 20px 30px 30px 30px;
+        }
+        form {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+    </style>
+</head>
+<body>
+    <h1>Radiology</h1>
+    <p>
+        Radiology is a branch of medicine that involves the use of medical imaging techniques to diagnose and treat various diseases and conditions. Radiologists are physicians who specialize in interpreting medical images and using them to provide diagnoses and recommendations for patient care.<br><br>
+
+Here are some important details about radiology:<br><br>
+
+Medical Imaging Techniques: Radiology utilizes several imaging techniques to visualize the internal structures of the body. Some common imaging modalities include:<br><br>
+
+X-ray: Uses ionizing radiation to create images of bones and some organs.<br><br>
+Computed Tomography (CT): Combines X-ray technology with computer processing to produce cross-sectional images of the body.<br><br>
+Magnetic Resonance Imaging (MRI): Uses a powerful magnetic field and radio waves to generate detailed images of soft tissues and organs.<br><br>
+Ultrasound: Utilizes sound waves to create real-time images of organs, tissues, and blood flow.<br><br>
+Nuclear Medicine: Involves the administration of radioactive substances to diagnose and treat diseases.<br><br>
+Radiology Specialties: Radiology encompasses various subspecialties, including:<br><br>
+
+Diagnostic Radiology: Focuses on interpreting medical images for diagnostic purposes.<br><br>
+Interventional Radiology: Uses image-guided techniques to perform minimally invasive procedures, such as biopsies, angioplasty, and stent placement.<br><br>
+Radiation Oncology: Involves using radiation therapy to treat cancer.<br><br>
+Pediatric Radiology: Concentrates on imaging children and diagnosing pediatric diseases.<br><br>
+Musculoskeletal Radiology: Specializes in diagnosing and treating disorders of the musculoskeletal system.<br><br>
+Radiology Reports: Radiologists interpret medical images and generate detailed reports that are shared with referring physicians. These reports provide information about the findings, diagnosis, and recommendations for further management or treatment.<br><br>
+
+Role in Healthcare: Radiology plays a crucial role in healthcare by assisting in the detection, diagnosis, and monitoring of various diseases and conditions. It helps guide treatment decisions, surgical planning, and post-treatment evaluations. Radiologists work closely with other medical professionals to ensure accurate diagnoses and effective patient care.<br><br>
+
+Radiology Technology Advancements: Over the years, there have been significant advancements in radiology technology. These include improved image quality, faster imaging techniques, 3D imaging capabilities, and artificial intelligence (AI) applications for image interpretation and analysis.<br><br>
+
+It's important to note that while radiology provides valuable information, the final diagnosis and treatment decisions are typically made by the patient's primary physician or specialist, who takes into account the radiologist's findings along with other clinical information.<br><br>
+
+
+
+
+
+
+
+    </p>
+    <h1>Contact Us</h1>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardiology</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color:  blueviolet;
+        }
+        h1{
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+        p{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 20px 30px 30px 30px;
+        }
+        form {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+    </style>
+</head>
+<body>
+    <h1>
+        Cardiology
+    </h1>
+    <p>
+        Cardiology is the branch of medicine that focuses on the diagnosis, treatment, and prevention of diseases and disorders related to the cardiovascular system, which includes the heart and blood vessels. Cardiologists are medical doctors who specialize in this field and are trained to manage various cardiovascular conditions.<br><br>
+
+Here are some key areas and topics within cardiology:<br><br>
+
+Coronary Artery Disease (CAD): This refers to the narrowing or blockage of the coronary arteries, which supply oxygen and nutrients to the heart muscle. CAD can lead to conditions such as angina (chest pain) and heart attacks.<br><br>
+
+Heart Failure: Also known as congestive heart failure, it occurs when the heart cannot pump blood efficiently to meet the body's needs. It can result from various causes, including CAD, high blood pressure, or heart valve disease.<br><br>
+
+Arrhythmias: These are abnormal heart rhythms that can be too fast, too slow, or irregular. Common arrhythmias include atrial fibrillation, ventricular tachycardia, and bradycardia. They may cause symptoms such as palpitations, dizziness, or fainting.<br><br>
+
+Valvular Heart Disease: This involves problems with the heart valves, which regulate blood flow within the heart. Valvular diseases can include conditions like aortic stenosis, mitral regurgitation, and tricuspid valve disease.<br><br>
+
+Hypertension: Also known as high blood pressure, it is a chronic condition in which the force of blood against the artery walls is consistently too high. Untreated hypertension can lead to serious complications, including heart disease and stroke.<br><br>
+
+Congenital Heart Disease: These are heart defects present at birth, ranging from simple to complex abnormalities in the heart's structure. Some defects may require surgical intervention in infancy, while others may be diagnosed later in life.<br><br>
+
+Interventional Cardiology: This field focuses on minimally invasive procedures to diagnose and treat cardiovascular conditions. It includes techniques such as angioplasty, stenting, and catheter-based interventions.<br><br>
+
+Cardiac Imaging: Various imaging techniques are used in cardiology to assess the structure and function of the heart. These include echocardiography, cardiac MRI (magnetic resonance imaging), CT (computed tomography) angiography, and nuclear imaging.<br><br>
+
+Preventive Cardiology: This involves strategies and interventions aimed at preventing cardiovascular disease. It includes lifestyle modifications, risk factor management, and medical therapies to reduce the risk of heart disease.<br><br>
+
+Cardiac Rehabilitation: This is a comprehensive program that helps individuals recover from a heart attack, heart surgery, or other cardiac procedures. It focuses on exercise training, lifestyle changes, and education to improve cardiovascular health.<br><br>
+
+It's important to note that this is a general overview of cardiology, and there are many more specialized areas within the field. Cardiologists undergo extensive training to diagnose, treat, and manage various cardiovascular conditions, and they work closely with other healthcare professionals to provide comprehensive care to patients.<br><br>
+
+
+
+
+
+
+
+    </p>
+    <h1>Contact Us</h1>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

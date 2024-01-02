@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anesthesia</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color:  blueviolet;
+        }
+        h1{
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+        p{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 20px 30px 30px 30px;
+        }
+        form {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+    </style>
+</head>
+<body>
+    <H1>Anesthesia</H1>
+    <p>
+        Anesthesia is a medical practice that involves the administration of medications to induce a temporary loss of sensation or awareness, primarily for the purpose of performing medical procedures or surgeries. It ensures that patients are comfortable, pain-free, and unaware during the procedure.<br><br>
+
+There are different types of anesthesia, and the choice depends on the nature of the procedure, the patient's medical condition, and other factors. The three main types of anesthesia are:<br><br>
+
+General Anesthesia: General anesthesia involves the use of medications to induce a reversible state of unconsciousness and loss of sensation. It affects the entire body and allows for complete pain control. General anesthesia is typically administered by an anesthesiologist, who carefully monitors the patient's vital signs throughout the procedure. The medications used for general anesthesia can be delivered through intravenous (IV) injections or inhaled gases.<br><br>
+
+Regional Anesthesia: Regional anesthesia involves numbing a specific region or area of the body, such as an arm, leg, or a portion of the torso. It is commonly used for surgeries or procedures that don't require full unconsciousness. There are two main types of regional anesthesia:<br><br>
+
+a. Epidural anesthesia: In this technique, a local anesthetic is injected into the epidural space surrounding the spinal cord. It is commonly used for pain relief during labor and delivery, as well as for surgeries involving the lower abdomen, pelvis, or legs.<br><br>
+
+b. Spinal anesthesia: Spinal anesthesia involves injecting a local anesthetic directly into the cerebrospinal fluid in the spinal canal, which blocks nerve signals and induces numbness and muscle relaxation. It is commonly used for procedures below the waist, such as lower abdominal, pelvic, or lower limb surgeries.<br><br>
+
+Local Anesthesia: Local anesthesia involves the administration of medication to numb a small and specific area of the body, usually near the site of the procedure. It is commonly used for minor procedures, such as dental work, skin biopsies, or small excisions. Local anesthesia may be applied topically as a cream or gel, or injected directly into the tissue.<br><br>
+
+It's important to note that anesthesia carries some risks and side effects, and it should always be administered by trained medical professionals in a controlled environment. The anesthesiologist evaluates the patient's medical history, performs a physical examination, and tailors the anesthesia plan according to the individual needs and safety considerations of the patient.<br><br>
+
+
+
+
+
+
+
+    </p>
+    <h1>Contact Us</h1>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

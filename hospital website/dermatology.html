@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dermatology</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color:  blueviolet;
+        }
+        h1{
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+        p{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 20px 30px 30px 30px;
+        }
+        form {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+    </style>
+</head>
+<body>
+    <h1>Dermatology</h1>
+    <p>
+        Dermatology is the branch of medicine that deals with the diagnosis, treatment, and prevention of conditions related to the skin, hair, nails, and mucous membranes. Dermatologists are medical doctors who specialize in the field of dermatology and are trained to diagnose and manage a wide range of skin conditions.<br><br>
+
+Here are some key details about dermatology:<br><br>
+
+Scope: Dermatology encompasses the study and treatment of various skin disorders, including but not limited to acne, eczema, psoriasis, dermatitis, skin infections, skin cancer, hair loss, nail disorders, and sexually transmitted infections (STIs) that manifest on the skin.<br><br>
+
+Education and Training: Dermatologists undergo extensive medical training, typically completing four years of undergraduate education, followed by four years of medical school to obtain an M.D. or D.O. degree. Afterward, they complete a residency program in dermatology, which usually lasts three years. Some dermatologists may pursue additional specialized training through fellowships in areas like dermatopathology, pediatric dermatology, cosmetic dermatology, or Mohs surgery.<br><br>
+
+Diagnosis: Dermatologists diagnose skin conditions through a combination of physical examinations, medical history evaluations, and, when necessary, laboratory tests or skin biopsies. They use their expertise to differentiate between various skin conditions that may have similar symptoms.<br><br>
+
+Treatment: Dermatologists employ a variety of treatment options based on the specific condition and its severity. Treatments can include topical medications, oral medications, light therapy (phototherapy), cryotherapy (freezing), laser therapy, surgical procedures, and cosmetic interventions. Dermatologists also provide patient education on proper skincare, sun protection, and lifestyle modifications to manage and prevent skin problems.<br><br>
+
+Specialized Areas: Dermatology includes various specialized areas, such as pediatric dermatology (focusing on skin conditions in children), dermatopathology (examining skin tissue under a microscope), cosmetic dermatology (addressing aesthetic concerns), and Mohs surgery (a specialized technique for removing skin cancer while preserving healthy tissue).<br><br>
+
+Collaboration: Dermatologists often work closely with other medical specialties, such as oncology, rheumatology, allergy/immunology, and infectious diseases, to provide comprehensive care for patients with systemic diseases that affect the skin or those with skin conditions that require a multidisciplinary approach.<br><br>
+
+It's important to note that while this information provides a general overview of dermatology, specific details and practices may vary among dermatologists and healthcare systems. If you have any concerns or specific questions about your skin health, it's best to consult with a qualified dermatologist for personalized advice and care.<br><br>
+
+
+
+
+
+
+
+    </p>
+    <h1>Contact Us</h1>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

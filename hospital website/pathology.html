@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathology</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color:  blueviolet;
+        }
+        h1{
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+        p{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 20px 30px 30px 30px;
+        }
+        form {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+    </style>
+</head>
+<body>
+    <h1>Pathology</h1>
+    <p>
+        Pathology is the branch of medical science that involves the study of diseases and their effects on the structure and function of the body. It focuses on understanding the nature, causes, and mechanisms of diseases through laboratory examination of tissues, cells, and body fluids.<br><br>
+
+Pathologists, also known as diagnostic physicians, are medical doctors who specialize in pathology. They play a crucial role in the diagnosis and treatment of diseases by examining samples obtained through biopsies, surgeries, autopsies, or other procedures. They use various techniques and tools to analyze the samples and provide important information to aid in patient care.<br><br>
+
+Here are some key aspects of pathology:<br><br>
+
+Anatomic Pathology: This branch of pathology deals with the examination of organs, tissues, and cells under a microscope. It includes histology (study of tissues) and cytology (study of cells). Anatomic pathologists analyze biopsy specimens to diagnose diseases, determine the extent of disease progression, and predict outcomes.<br><br>
+
+Clinical Pathology: Clinical pathology involves the analysis of body fluids, such as blood, urine, and cerebrospinal fluid, to diagnose and monitor diseases. It includes laboratory tests such as blood counts, blood chemistry, microbiology, immunology, and molecular diagnostics. Clinical pathologists interpret the results and provide information to aid in the management of patients.<br><br>
+
+Molecular Pathology: This field focuses on studying genetic and molecular changes in cells and tissues. It involves the use of techniques like polymerase chain reaction (PCR), DNA sequencing, and gene expression analysis. Molecular pathology helps in diagnosing genetic disorders, identifying specific mutations, predicting treatment response, and guiding targeted therapies.<br><br>
+
+Forensic Pathology: Forensic pathology is concerned with determining the cause and manner of death in cases of suspicious or unnatural deaths. Forensic pathologists perform autopsies, collect evidence, and provide expert testimony in legal proceedings. They work closely with law enforcement agencies and contribute to the investigation of crimes and accidents.<br><br>
+
+Research and Experimental Pathology: Pathologists also engage in research to advance the understanding of diseases and develop new diagnostic and therapeutic approaches. They investigate the underlying mechanisms of diseases, conduct clinical trials, and contribute to the development of personalized medicine.<br><br>
+
+It's important to note that pathology is a vast and evolving field with numerous subspecialties and areas of focus. Pathologists work in collaboration with other medical professionals, such as surgeons, oncologists, radiologists, and clinicians, to provide comprehensive patient care.<br><br>
+
+
+
+
+
+
+
+    </p>
+    <h1>Contact Us</h1>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
